@@ -10,6 +10,12 @@
         android:layout_height="wrap_content"
         android:gravity="fill_horizontal"
         android:hint="To"/>
+    <Spinner
+        android:id="@+id/spin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtxtTo"
+        android:layout_alignParentStart="true"></Spinner>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,7 +24,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:id="@+id/edtxtTypeMessage"
-        android:layout_toStartOf="@+id/button" />
+        android:layout_toStartOf="@+id/btnToast" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
