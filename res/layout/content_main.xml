@@ -20,17 +20,23 @@
         android:id="@+id/textView2" />
     <Button
         android:id="@+id/boton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="boton"
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@+id/textView2" />
     <Button
         android:id="@+id/btnEjercicio1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="EjercicioToast"
-        android:layout_marginTop="40dp"
-        android:layout_below="@+id/textView2"
+        android:text="go2Toast"
+        android:layout_below="@+id/boton"
+        android:layout_toEndOf="@+id/textView2" />
+    <Button
+        android:id="@+id/btnEjercicio2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go2Alarm"
+        android:layout_below="@+id/btnEjercicio1"
         android:layout_toEndOf="@+id/textView2" />
 </RelativeLayout>

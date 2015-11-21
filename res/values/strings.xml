@@ -2,10 +2,18 @@
     <string name="app_name">fp_android15</string>
     <string name="action_settings">Settings</string>
     <string-array name="strArrayElementos">
-        <item>Element1</item>
+        <item>Elemento1</item>
         <item>Elemento2</item>
         <item>Elemento3</item>
         <item>Elemento4</item>
         <item>Elemento5</item>
+    </string-array>
+
+    <string-array name="arrEjercicio2">
+        <item>Predeterminado</item>
+        <item>Nokia</item>
+        <item>Alarma</item>
+        <item>Rock</item>
+        <item>Pop</item>
     </string-array>
 </resources>

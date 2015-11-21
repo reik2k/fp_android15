@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button boton;
     Button botonToast;
+    Button btnEjercicio2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //Ejericio2
+        //Ejericio1
         botonToast = (Button) findViewById(R.id.btnEjercicio1);
 
         botonToast.setOnClickListener(new View.OnClickListener(){
@@ -66,6 +67,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        //Ejercicio2
+        btnEjercicio2 = (Button)findViewById(R.id.btnEjercicio2);
+
+        btnEjercicio2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, Ejercicio2.class);
+
+                startActivity(i);
+            }
+        });
+
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.

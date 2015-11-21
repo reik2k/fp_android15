@@ -51,12 +51,12 @@ public class EjercicioToast extends AppCompatActivity
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spn.setAdapter(adapter);
         
-        /*spn.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        /*spn.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener{
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String elementSelected = (String) parent.getItemAtPosition(position);
-                
-                Toast.makeText(EjercicioToast.this, elementSelected + " has been selected 4 u",Toast.LENGTH_SHORT);
+
+                Toast.makeText(EjercicioToast.this, elementSelected + " has been selected 4 u", Toast.LENGTH_SHORT);
             }
         });*/
     }

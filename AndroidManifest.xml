@@ -27,6 +27,10 @@
             android:label="fp_android15_Ejercicio1"
             android:theme="@style/AppTheme.NoActionBar"/>
 
+        <activity android:name=".Ejercicio2"
+            android:label="fp_android15_Ejercicio2"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
         <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
              App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
         <meta-data
