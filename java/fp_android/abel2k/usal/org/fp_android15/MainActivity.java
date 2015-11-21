@@ -12,6 +12,8 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
@@ -26,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
     private GoogleApiClient client;
 
     Button boton;
+    Button botonToast;
+    Toast alert;
+    EditText editTextTo;
+    EditText editTextType;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +62,22 @@ public class MainActivity extends AppCompatActivity {
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+
+        //Ejericico2
+
+        botonToast.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                editTextTo = (EditText)findViewById(R.id.edtxtTo);
+                editTextType = (EditText)findViewById(R.id.edtxtTypeMessage);
+
+                alert.setText("To: "
+                        + editTextTo.getText().toString() + " \n"
+                        + "Your Message: " + editTextType.getText().toString());
+                alert.show();
+            }
+        });
+
+
     }
 
     @Override
