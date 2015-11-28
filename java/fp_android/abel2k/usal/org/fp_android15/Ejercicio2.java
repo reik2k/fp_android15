@@ -2,6 +2,7 @@ package fp_android.abel2k.usal.org.fp_android15;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -45,6 +46,8 @@ public class Ejercicio2 extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String elmSelected = (String) parent.getItemAtPosition(position);
+
+                Log.i("INFO EJER2", " The element is " + elmSelected);
                 txt.setText(elmSelected);
             }
 
