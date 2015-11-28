@@ -18,6 +18,12 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Add Fragments"/>
+    <Button
+        android:id="@+id/btnRemoveFragments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Remove Fragments"/>
 
     <LinearLayout
         android:layout_margin="5dp"
