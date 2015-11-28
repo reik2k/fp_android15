@@ -146,13 +146,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //FRAGMENT
-        /*Fragment frag = new NewFragment();
-        FragmentManager FM = getSupportFragmentManager();
-        FragmentTransaction FT = FM.beginTransaction();
-        FT.add(R.id.container,frag);
-        FT.commit();*/
-
         /*
             EJERCICIO 3: Iremos a un Activity que generará dos fragments uno con XML y otro generado
             desde la Clase

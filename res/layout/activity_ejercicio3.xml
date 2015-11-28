@@ -12,17 +12,26 @@
         android:textSize="35sp"
         android:gravity="center"/>
 
+    <Button
+        android:id="@+id/btnAddFragments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add Fragments"/>
+
     <LinearLayout
         android:layout_margin="5dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <!-- Lo comentamos para realizar el
+        ejercicio de paso de parámetros a Fragments>
         <fragment
             android:id="@+id/framgentClass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            class="fp_android.abel2k.usal.org.fp_android15.NewFragment2"/>
+            class="fp_android.abel2k.usal.org.fp_android15.NewFragment2"/-->
 
         <FrameLayout
             android:id="@+id/contFragment"
